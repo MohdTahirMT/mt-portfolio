@@ -1,2 +1,1 @@
-# mt-portfolio
-This is my React-Portfolio
+<h1 align="center">Welcome to Mohd Tahir portfolio 👋</h1>
