@@ -256,7 +256,7 @@ export const seoData: SEODataType = {
     'A passionate Full Stack Developer and Native Mobile Apps Developer.',
   author: 'Mohd Tahir',
   image: 'https://avatars.githubusercontent.com/u/78682863?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://mta-portfolio.netlify.app/',
   keywords: [
     'Mohd',
     'Tahir',
