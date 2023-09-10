@@ -53,11 +53,11 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: 'HTML5',
-          iconifyTag: 'logos:html-5',
+          iconifyTag: 'vscode-icons:file-type-html',
         },
         {
           skillName: 'CSS3',
-          iconifyTag: 'logos:css-3',
+          iconifyTag: 'vscode-icons:file-type-css',
         },
         {
           skillName: 'JavaScript',
@@ -65,7 +65,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'Typescript',
-          iconifyTag: 'vscode-icons:file-type-typescript',
+          iconifyTag: 'logos:typescript-icon',
         },
         {
           skillName: 'ReactJS',
@@ -73,7 +73,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: 'React Native',
-          iconifyTag: 'vscode-icons:file-type-reactts',
+          iconifyTag: 'logos:react',
         },
         {
           skillName: 'NextJS',
@@ -96,12 +96,48 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-mysql',
         },
         {
+          skillName: 'Git',
+          iconifyTag: 'logos:git-icon',
+        },
+        {
+          skillName: 'Github',
+          iconifyTag: 'logos:github-icon',
+        },
+        {
           skillName: 'Redux',
           iconifyTag: 'logos:redux',
         },
         {
+          skillName: 'Bootstrap',
+          iconifyTag: 'logos:bootstrap',
+        },
+        {
           skillName: 'jQuery',
           iconifyTag: 'logos:jquery',
+        },
+        {
+          skillName: 'Material UI',
+          iconifyTag: 'logos:material-ui',
+        },
+        {
+          skillName: 'Ant Design',
+          iconifyTag: 'logos:ant-design',
+        },
+        {
+          skillName: 'Mantine UI',
+          iconifyTag: 'logos:mantine-icon',
+        },
+        {
+          skillName: 'React Query',
+          iconifyTag: 'logos:react-query-icon',
+        },
+        {
+          skillName: 'Axios',
+          iconifyTag: 'logos:axios',
+        },
+        {
+          skillName: 'Socket IO',
+          iconifyTag: 'logos:socket-io',
         },
         {
           skillName: 'Jest',
@@ -114,6 +150,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'Firebase',
           iconifyTag: 'vscode-icons:file-type-firebase',
+        },
+        {
+          skillName: 'Chat GPT',
+          iconifyTag: 'logos:openai-icon',
         },
         {
           skillName: 'vsCode',
@@ -129,68 +169,12 @@ export const skillsSection: SkillsSectionType = {
         },
       ],
     },
-    {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          iconifyTag: 'logos:postgresql',
-        },
-        {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          iconifyTag: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          iconifyTag: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
-      ],
-    },
   ],
 };
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+    Stack: 'Frontend (Design & Development)', //Insert stack or technology you have experience in
     progressPercentage: '90', //Insert relative proficiency in percentage
   },
   {
@@ -198,115 +182,91 @@ export const SkillBars: SkillBarsType[] = [
     progressPercentage: '80',
   },
   {
-    Stack: 'Programming',
+    Stack: 'Mobile Apps',
     progressPercentage: '80',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName:
+      'Dr. A.P.J. Abdul Kalam Technical University (Lucknow, Uttar Pradesh)',
+    subHeader: 'Bachelor of Technology in Computer Science',
+    duration: 'August 2017 - August 2021',
+    desc: 'In the college span, Learn about computer fundamentals and many technologies.',
+    grade: 'CGPA : 7.2',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Developed Attendance mobile application.',
+      'Developed Library-Management web application.',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
-  },
-  {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Software Engineer',
+    company: 'P-CODER TECHNOLOGIES PVT LTD.',
+    companyLogo: '/img/icons/common/pcoder.png',
+    date: 'Sep 2021 – PRESENT',
+    desc: 'As a seasoned full-stack developer, my expertise encompasses a broad spectrum of web application technologies, with a focus on leveraging the power of React.js and Next.js. These dynamic frameworks enable me to craft engaging and responsive user interfaces, enhancing the overall user experience. My proficiency extends further to the realm of native mobile app development, where I harness the capabilities of React Native to create compelling apps that seamlessly operate on both Android and iOS platforms. Shifting focus to the backend development, I have a strong command of Node.js and Express.js. These technologies enable me to construct robust server-side architectures that facilitate seamless communication between the frontend and backend. With a keen understanding of RESTful APIs and server-side logic, I ensure that data flows efficiently and securely throughout the application ecosystem. Databases play a pivotal role in any data-driven application, and I have adeptly worked with two prominent options: MySQL and MongoDB.',
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'QYUBIC (Online Coupon and Discount)',
+    desc: 'This web application provides coupons and discount on top brands & categories. ',
+    techs: 'Next.js Redux.js Bootstrap CSS3 Axios More...',
+    link: 'https://www.qyubic.com/uae-en',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Doctorji (Doctor’s Appointment System)',
+    desc: 'This web application provides services like appointment, best doctor and hospital treatment according to your preferrence.',
+    techs: 'Reaxt.js Mantine-UI Node.js Express.js MongoDB Axios More...',
+    link: 'https://www.doctorji.co.in/',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Guvrix (Data Management)',
+    desc: 'This web application provides many data services like DATA SECURITY, DATA USAGE, DATA REGULATIONS etc',
+    techs: 'React.js Bootstrap CSS3 Axios More...',
+    link: 'https://guvrix.com/',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-  },
-];
-
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+    name: 'QYUBIC Mobile App (Online Coupon and Discount)',
+    desc: 'This web application provides coupons and discount on top brands & categories. ',
+    techs:
+      'React-Native Firebase Redux.js Axios Stylesheet(CSS) Native-Base More...',
+    link: 'https://play.google.com/store/apps/details?id=com.qyubic',
   },
   {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+    name: 'LendStack (Loan Management App)',
+    desc: 'This mobile application provides many services like Loan, EMI, Credit etc',
+    techs: 'React-Native Redux.js Axios Stylesheet(CSS) Native-Base More...',
+    link: 'https://play.google.com/store/apps/details?id=com.lendstack',
   },
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: 'Mohd Tahir',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    'A passionate Full Stack Developer and Native Mobile Apps Developer.',
   author: 'Mohd Tahir',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: 'https://avatars.githubusercontent.com/u/78682863?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
-    'Hanzla',
+    'Mohd',
+    'Tahir',
     'Mohd Tahir',
-    '@1hanzla100',
-    '1hanzla100',
+    '@MohdTahirMT',
+    'MohdTahirMT',
+    '@mohdtahirmt',
+    'mohdtahirmt',
     'Portfolio',
-    'Hanzla Portfolio ',
+    'Tahir Portfolio ',
     'Mohd Tahir Portfolio',
   ],
 };
