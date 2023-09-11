@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi, I'm Mohd Tahir",
   description:
     "I'm passionate Full Stack developer having an experience of frontend technologies like React.js, Next.js also backend technologies like Node.js, Express.js with Database like MySQL, MongoDB and Native mobile apps development with React Native.",
-  resumeLink: '',
+  resumeLink: 'https://drive.google.com/file/d/1xO7T3__MMvqhOFwwP6aAW13TYzb4iL0B/view?usp=sharing',
 };
 
 export const openSource = {
@@ -222,7 +222,7 @@ export const projects: ProjectType[] = [
   {
     name: 'Doctorji (Doctor’s Appointment System)',
     desc: 'This web application provides services like appointment, best doctor and hospital treatment according to your preferrence.',
-    techs: 'Reaxt.js Mantine-UI Node.js Express.js MongoDB Axios More...',
+    techs: 'React.js Mantine-UI Node.js Express.js MongoDB Axios More...',
     link: 'https://www.doctorji.co.in/',
   },
   {
