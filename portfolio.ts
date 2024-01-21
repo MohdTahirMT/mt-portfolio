@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi, I'm Mohd Tahir",
   description:
     "I'm passionate Full Stack developer having an experience of frontend technologies like React.js, Next.js also backend technologies like Node.js, Express.js with Database like MySQL, MongoDB and Native mobile apps development with React Native.",
-  resumeLink: 'https://drive.google.com/file/d/1xO7T3__MMvqhOFwwP6aAW13TYzb4iL0B/view?usp=sharing',
+  resumeLink: 'https://drive.google.com/file/d/1mbFIrI8v9wPmwhsdDSHoSTdRt8SXXQ_-/view?usp=sharing',
 };
 
 export const openSource = {
@@ -179,7 +179,7 @@ export const SkillBars: SkillBarsType[] = [
   },
   {
     Stack: 'Backend',
-    progressPercentage: '80',
+    progressPercentage: '70',
   },
   {
     Stack: 'Mobile Apps',
@@ -204,32 +204,39 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Software Engineer',
+    role: 'Software Engineer (Full Stack Developer)',
     company: 'P-CODER TECHNOLOGIES PVT LTD.',
     companyLogo: '/img/icons/common/pcoder.png',
-    date: 'Sep 2021 – PRESENT',
+    date: 'Sep 2021 – Sep 2023',
+    desc: 'As a seasoned full-stack developer, my expertise encompasses a broad spectrum of web application technologies, with a focus on leveraging the power of React.js and Next.js. These dynamic frameworks enable me to craft engaging and responsive user interfaces, enhancing the overall user experience. My proficiency extends further to the realm of native mobile app development, where I harness the capabilities of React Native to create compelling apps that seamlessly operate on both Android and iOS platforms. Shifting focus to the backend development, I have a strong command of Node.js and Express.js. These technologies enable me to construct robust server-side architectures that facilitate seamless communication between the frontend and backend. With a keen understanding of RESTful APIs and server-side logic, I ensure that data flows efficiently and securely throughout the application ecosystem. Databases play a pivotal role in any data-driven application, and I have adeptly worked with two prominent options: MySQL and MongoDB.',
+  },
+  {
+    role: 'Software Engineer (Full Stack Developer)',
+    company: 'WHAT TO FABRIKAT OÜ PVT LTD.',
+    companyLogo: '/img/icons/common/wtf_logo.jpg',
+    date: 'Oct 2023 – PRESENT',
     desc: 'As a seasoned full-stack developer, my expertise encompasses a broad spectrum of web application technologies, with a focus on leveraging the power of React.js and Next.js. These dynamic frameworks enable me to craft engaging and responsive user interfaces, enhancing the overall user experience. My proficiency extends further to the realm of native mobile app development, where I harness the capabilities of React Native to create compelling apps that seamlessly operate on both Android and iOS platforms. Shifting focus to the backend development, I have a strong command of Node.js and Express.js. These technologies enable me to construct robust server-side architectures that facilitate seamless communication between the frontend and backend. With a keen understanding of RESTful APIs and server-side logic, I ensure that data flows efficiently and securely throughout the application ecosystem. Databases play a pivotal role in any data-driven application, and I have adeptly worked with two prominent options: MySQL and MongoDB.',
   },
 ];
 
 export const projects: ProjectType[] = [
   {
+    name: 'LendStack WebApp (Loan Management and Cash Ledger)',
+    desc: 'This web application provides many services like Loan, EMI, Credit etc',
+    techs: 'React.js JavaScript Firebase Material UI and More...',
+    link: 'https://lendstack.app',
+  },
+  {
+    name: 'LendStack (Loan Management App)',
+    desc: 'This mobile application provides many services like Loan, EMI, Credit etc',
+    techs: 'React-Native Redux.js Axios Stylesheet(CSS) Native-Base More...',
+    link: 'https://play.google.com/store/apps/details?id=com.lendstack',
+  },
+  {
     name: 'QYUBIC (Online Coupon and Discount)',
     desc: 'This web application provides coupons and discount on top brands & categories. ',
     techs: 'Next.js Redux.js Bootstrap CSS3 Axios More...',
     link: 'https://www.qyubic.com/uae-en',
-  },
-  {
-    name: 'Doctorji (Doctor’s Appointment System)',
-    desc: 'This web application provides services like appointment, best doctor and hospital treatment according to your preferrence.',
-    techs: 'React.js Mantine-UI Node.js Express.js MongoDB Axios More...',
-    link: 'https://www.doctorji.co.in/',
-  },
-  {
-    name: 'Guvrix (Data Management)',
-    desc: 'This web application provides many data services like DATA SECURITY, DATA USAGE, DATA REGULATIONS etc',
-    techs: 'React.js Bootstrap CSS3 Axios More...',
-    link: 'https://guvrix.com/',
   },
   {
     name: 'QYUBIC Mobile App (Online Coupon and Discount)',
@@ -239,10 +246,16 @@ export const projects: ProjectType[] = [
     link: 'https://play.google.com/store/apps/details?id=com.qyubic',
   },
   {
-    name: 'LendStack (Loan Management App)',
-    desc: 'This mobile application provides many services like Loan, EMI, Credit etc',
-    techs: 'React-Native Redux.js Axios Stylesheet(CSS) Native-Base More...',
-    link: 'https://play.google.com/store/apps/details?id=com.lendstack',
+    name: 'Guvrix (Data Management)',
+    desc: 'This web application provides many data services like DATA SECURITY, DATA USAGE, DATA REGULATIONS etc',
+    techs: 'React.js Bootstrap CSS3 Axios More...',
+    link: 'https://guvrix.com/',
+  },
+  {
+    name: 'Doctorji (Doctor’s Appointment System)',
+    desc: 'This web application provides services like appointment, best doctor and hospital treatment according to your preferrence.',
+    techs: 'React.js Mantine-UI Node.js Express.js MongoDB Axios More...',
+    link: 'https://www.doctorji.co.in/',
   },
 ];
 
