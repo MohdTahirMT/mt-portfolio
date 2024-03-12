@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi, I'm Mohd Tahir",
   description:
     "I'm passionate Full Stack developer having an experience of frontend technologies like React.js, Next.js also backend technologies like Node.js, Express.js with Database like MySQL, MongoDB and Native mobile apps development with React Native.",
-  resumeLink: 'https://drive.google.com/file/d/1mbFIrI8v9wPmwhsdDSHoSTdRt8SXXQ_-/view?usp=sharing',
+  resumeLink: 'https://drive.google.com/file/d/1laSXzCto835GwKVygJciUL8jklVNz0fg/view?usp=sharing',
 };
 
 export const openSource = {
