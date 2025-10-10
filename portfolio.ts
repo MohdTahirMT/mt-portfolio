@@ -14,9 +14,8 @@ import {
 export const greetings: GreetingsType = {
   name: 'Mohd Tahir',
   title: "Hi, I'm Mohd Tahir",
-  description:
-    "I'm passionate Full Stack developer having an experience of frontend technologies like React.js, Next.js also backend technologies like Node.js, Express.js with Database like MySQL, MongoDB and Native mobile apps development with React Native.",
-  resumeLink: 'https://drive.google.com/file/d/1beisp9e_OaE8vprbOop7dfg-kxcdmBqO/view?usp=sharing',
+  description: "I'm a passionate Frontend Developer with experience in building modern web and mobile applications using React.js, Next.js, and React Native. I focus on creating intuitive, responsive, and high-performance user interfaces that deliver seamless experiences across platforms.",
+  resumeLink: 'https://drive.google.com/file/d/12Wz0RNchAKpMbLHC0D-b69tDNAo8DSij/view?usp=sharing',
 };
 
 export const openSource = {
@@ -37,17 +36,16 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'Frontend Dev on a mission to explore every pixel, every framework, and every idea.',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Software Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Node.js & Express.js'),
         emoji('⚡ Building Native Mobile Apps in React Native'),
       ],
       softwareSkills: [
@@ -78,22 +76,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: 'NextJS',
           iconifyTag: 'vscode-icons:file-type-light-next',
-        },
-        {
-          skillName: 'NodeJS',
-          iconifyTag: 'vscode-icons:file-type-node',
-        },
-        {
-          skillName: 'ExpressJS',
-          iconifyTag: 'logos:express',
-        },
-        {
-          skillName: 'MongoDB',
-          iconifyTag: 'vscode-icons:file-type-mongo',
-        },
-        {
-          skillName: 'MySQL',
-          iconifyTag: 'vscode-icons:file-type-mysql',
         },
         {
           skillName: 'Git',
@@ -156,10 +138,6 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:openai-icon',
         },
         {
-          skillName: 'vsCode',
-          iconifyTag: 'vscode-icons:file-type-vscode',
-        },
-        {
           skillName: 'NPM',
           iconifyTag: 'vscode-icons:file-type-npm',
         },
@@ -176,10 +154,6 @@ export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend (Design & Development)', //Insert stack or technology you have experience in
     progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
-    Stack: 'Backend',
-    progressPercentage: '70',
   },
   {
     Stack: 'Mobile Apps',
@@ -208,14 +182,14 @@ export const experience: ExperienceType[] = [
     company: 'P-CODER TECHNOLOGIES PVT LTD.',
     companyLogo: '/img/icons/common/pcoder.png',
     date: 'Sep 2021 – Sep 2023',
-    desc: 'As a seasoned full-stack developer, my expertise encompasses a broad spectrum of web application technologies, with a focus on leveraging the power of React.js and Next.js. These dynamic frameworks enable me to craft engaging and responsive user interfaces, enhancing the overall user experience. My proficiency extends further to the realm of native mobile app development, where I harness the capabilities of React Native to create compelling apps that seamlessly operate on both Android and iOS platforms. Shifting focus to the backend development, I have a strong command of Node.js and Express.js. These technologies enable me to construct robust server-side architectures that facilitate seamless communication between the frontend and backend. With a keen understanding of RESTful APIs and server-side logic, I ensure that data flows efficiently and securely throughout the application ecosystem. Databases play a pivotal role in any data-driven application, and I have adeptly worked with two prominent options: MySQL and MongoDB.',
+    desc: 'Delivered multiple web and mobile projects, gaining solid experience in the full frontend development lifecycle and modern UI engineering. 1) QYUBIC (Web & Mobile App): Built and maintained cross-platform applications using React Native, React.js, JavaScript, Firebase, Axios, and CSS, providing users with a seamless experience for accessing exclusive coupons and discounts. 2) Guvrix (Data Management): Led frontend development (covering 80% of the platform) using React.js, Bootstrap, Axios, and CSS, focusing on building intuitive dashboards and interactive data visualizations. 3) Doctorji (Doctor Appointment System): Developed the frontend interface with React.js, Mantine UI, and Axios, enabling users to book and manage online appointments easily with a smooth, responsive UI. Strengthened expertise in scalable UI architecture, performance optimization, and cross-functional collaboration, consistently delivering high-quality, production-ready frontend solutions.',
   },
   {
     role: 'Software Engineer (Full Stack Developer)',
     company: 'WHAT TO FABRIKAT OÜ PVT LTD.',
     companyLogo: '/img/icons/common/wtf_logo.jpg',
     date: 'Oct 2023 – PRESENT',
-    desc: 'As a seasoned full-stack developer, my expertise encompasses a broad spectrum of web application technologies, with a focus on leveraging the power of React.js and Next.js. These dynamic frameworks enable me to craft engaging and responsive user interfaces, enhancing the overall user experience. My proficiency extends further to the realm of native mobile app development, where I harness the capabilities of React Native to create compelling apps that seamlessly operate on both Android and iOS platforms. Shifting focus to the backend development, I have a strong command of Node.js and Express.js. These technologies enable me to construct robust server-side architectures that facilitate seamless communication between the frontend and backend. With a keen understanding of RESTful APIs and server-side logic, I ensure that data flows efficiently and securely throughout the application ecosystem. Databases play a pivotal role in any data-driven application, and I have adeptly worked with two prominent options: MySQL and MongoDB.',
+    desc: 'Contributing to LendStack, a comprehensive loan management platform with modules for loan collections, reporting, and cash ledger management. Mobile App: Building and optimizing cross-platform mobile features using React Native, JavaScript, and Firebase, ensuring smooth performance and excellent UX on both Android and iOS. Web App: Developing modern, responsive interfaces using React.js, Next.js, JavaScript, Axios, Firebase, and Material UI, focusing on scalability, usability, and pixel-perfect design implementation. Collaborating closely with product, design, and QA teams to deliver high-quality user experiences, emphasizing clean architecture, reusable components, and maintainable frontend codebases.Contributing to LendStack, a comprehensive loan management platform with modules for loan collections, reporting, and cash ledger management. Mobile App: Building and optimizing cross-platform mobile features using React Native, JavaScript, and Firebase, ensuring smooth performance and excellent UX on both Android and iOS. Web App: Developing modern, responsive interfaces using React.js, Next.js, JavaScript, Axios, Firebase, and Material UI, focusing on scalability, usability, and pixel-perfect design implementation. Collaborating closely with product, design, and QA teams to deliver high-quality user experiences, emphasizing clean architecture, reusable components, and maintainable frontend codebases.',
   },
 ];
 
@@ -254,7 +228,7 @@ export const projects: ProjectType[] = [
   {
     name: 'Doctorji (Doctor’s Appointment System)',
     desc: 'This web application provides services like appointment, best doctor and hospital treatment according to your preferrence.',
-    techs: 'React.js Mantine-UI Node.js Express.js MongoDB Axios More...',
+    techs: 'React.js Mantine-UI Axios More...',
     link: 'https://www.doctorji.co.in/',
   },
 ];
