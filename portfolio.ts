@@ -14,8 +14,8 @@ import {
 export const greetings: GreetingsType = {
   name: 'Mohd Tahir',
   title: "Hi, I'm Mohd Tahir",
-  description: "I'm a passionate Frontend Developer with experience in building modern web and mobile applications using React.js, Next.js, and React Native. I focus on creating intuitive, responsive, and high-performance user interfaces that deliver seamless experiences across platforms.",
-  resumeLink: 'https://drive.google.com/file/d/18f4caqgzMWbgW6eFEnY3-Ak_dgiLqdVh/view?usp=sharing',
+  description: "I'm a passionate Full Stack JavaScript Developer with 5+ years of experience building scalable web and mobile applications using React.js, Next.js, React Native, Node.js, and Express.js. I enjoy creating intuitive, responsive, and high-performance user interfaces while developing secure REST APIs and robust backend solutions. My focus is on delivering seamless, scalable, and production-ready applications that provide exceptional user experiences across platforms.",
+  resumeLink: 'https://drive.google.com/file/d/1IqePC9C729kE2UZykvqS0MIQVshUH0H2/view?usp=sharing',
 };
 
 export const openSource = {
@@ -36,17 +36,15 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'Frontend Dev on a mission to explore every pixel, every framework, and every idea.',
+  subTitle: 'Full Stack JavaScript Developer on a mission to build scalable products, craft exceptional user experiences, and continuously master modern technologies.',
   data: [
     {
       title: 'Software Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building Native Mobile Apps in React Native'),
+        emoji('⚡ Building scalable web applications with React.js, Next.js'),
+        emoji('⚡ Developing cross-platform mobile apps using React Native'),
+        emoji('⚡ Building secure REST APIs with Node.js, Express.js, MySQL & MongoDB'),
       ],
       softwareSkills: [
         {
@@ -78,6 +76,30 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
+          skillName: 'Redux',
+          iconifyTag: 'logos:redux',
+        },
+        {
+          skillName: 'NodeJS',
+          iconifyTag: 'logos:nodejs',
+        },
+        {
+          skillName: 'ExpressJS',
+          iconifyTag: 'logos:express',
+        },
+        {
+          skillName: 'MySQL',
+          iconifyTag: 'logos:mysql',
+        },
+        {
+          skillName: 'MongoDB',
+          iconifyTag: 'logos:mongodb',
+        },
+        {
+          skillName: 'Firebase',
+          iconifyTag: 'logos:firebase',
+        },
+        {
           skillName: 'Git',
           iconifyTag: 'logos:git-icon',
         },
@@ -86,16 +108,8 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:github-icon',
         },
         {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
-        },
-        {
           skillName: 'Bootstrap',
           iconifyTag: 'logos:bootstrap',
-        },
-        {
-          skillName: 'jQuery',
-          iconifyTag: 'logos:jquery',
         },
         {
           skillName: 'Material UI',
@@ -130,14 +144,6 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'vscode-icons:file-type-postman',
         },
         {
-          skillName: 'Firebase',
-          iconifyTag: 'vscode-icons:file-type-firebase',
-        },
-        {
-          skillName: 'Chat GPT',
-          iconifyTag: 'logos:openai-icon',
-        },
-        {
           skillName: 'NPM',
           iconifyTag: 'vscode-icons:file-type-npm',
         },
@@ -152,12 +158,20 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend (Design & Development)', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'Frontend Development (React.js, Next.js, TypeScript)',
+    progressPercentage: '95',
   },
   {
-    Stack: 'Mobile Apps',
-    progressPercentage: '80',
+    Stack: 'Mobile App Development (React Native)',
+    progressPercentage: '90',
+  },
+  {
+    Stack: 'Backend Development (Node.js, Express.js)',
+    progressPercentage: '85',
+  },
+  {
+    Stack: 'Database & APIs (MySQL, MongoDB, REST APIs)',
+    progressPercentage: '85',
   },
 ];
 
@@ -178,58 +192,49 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Software Engineer (Full Stack Developer)',
-    company: 'P-CODER TECHNOLOGIES PVT LTD.',
+    role: 'Software Engineer (Full Stack JavaScript Developer)',
+    company: 'P-CODER TECHNOLOGIES PVT. LTD.',
     companyLogo: '/img/icons/common/pcoder.png',
-    date: 'Sep 2021 – Sep 2023',
-    desc: 'Delivered multiple web and mobile projects, gaining solid experience in the full frontend development lifecycle and modern UI engineering. 1) QYUBIC (Web & Mobile App): Built and maintained cross-platform applications using React Native, React.js, JavaScript, Firebase, Axios, and CSS, providing users with a seamless experience for accessing exclusive coupons and discounts. 2) Guvrix (Data Management): Led frontend development (covering 80% of the platform) using React.js, Bootstrap, Axios, and CSS, focusing on building intuitive dashboards and interactive data visualizations. 3) Doctorji (Doctor Appointment System): Developed the frontend interface with React.js, Mantine UI, and Axios, enabling users to book and manage online appointments easily with a smooth, responsive UI. Strengthened expertise in scalable UI architecture, performance optimization, and cross-functional collaboration, consistently delivering high-quality, production-ready frontend solutions.',
+    date: 'Sep 2021 - Sep 2023',
+    desc: 'Developed scalable web and cross-platform mobile applications using React.js, React Native, Node.js, and Express.js. Delivered projects across healthcare, governance, and e-commerce domains, including QYUBIC, Guvrix, and Doctorji. Led approximately 80% of the frontend development for Guvrix, built reusable UI components, integrated REST APIs, Firebase services, and optimized application performance while collaborating closely with cross-functional teams.',
   },
   {
-    role: 'Software Engineer (Full Stack Developer)',
-    company: 'WHAT TO FABRIKAT OÜ PVT LTD.',
+    role: 'Software Engineer (Full Stack JavaScript Developer)',
+    company: 'SELUNE TECHNOLOGIES PVT. LTD. (Formerly What To Fabrikat OÜ Pvt. Ltd.)',
     companyLogo: '/img/icons/common/wtf_logo.jpg',
-    date: 'Oct 2023 – PRESENT',
-    desc: 'Contributing to LendStack, a comprehensive loan management platform with modules for loan collections, reporting, and cash ledger management. Mobile App: Building and optimizing cross-platform mobile features using React Native, JavaScript, and Firebase, ensuring smooth performance and excellent UX on both Android and iOS. Web App: Developing modern, responsive interfaces using React.js, Next.js, JavaScript, Axios, Firebase, and Material UI, focusing on scalability, usability, and pixel-perfect design implementation. Collaborating closely with product, design, and QA teams to deliver high-quality user experiences, emphasizing clean architecture, reusable components, and maintainable frontend codebases.Contributing to LendStack, a comprehensive loan management platform with modules for loan collections, reporting, and cash ledger management. Mobile App: Building and optimizing cross-platform mobile features using React Native, JavaScript, and Firebase, ensuring smooth performance and excellent UX on both Android and iOS. Web App: Developing modern, responsive interfaces using React.js, Next.js, JavaScript, Axios, Firebase, and Material UI, focusing on scalability, usability, and pixel-perfect design implementation. Collaborating closely with product, design, and QA teams to deliver high-quality user experiences, emphasizing clean architecture, reusable components, and maintainable frontend codebases.',
+    date: 'Oct 2023 - Present',
+    desc: 'Building and enhancing LendStack, a comprehensive fintech platform for loan management, collections, reporting, cash ledger, and subscription management. Developing scalable web applications with React.js, Next.js, TypeScript, and Material UI, cross-platform mobile apps with React Native, and secure REST APIs using Node.js, Express.js, Sequelize, and MySQL. Integrated Firebase services, payment gateways (Razorpay, Stripe, Cashfree), optimized backend performance, and delivered reusable, production-ready solutions.',
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'LendStack WebApp (Loan Management and Cash Ledger)',
-    desc: 'This web application provides many services like Loan, EMI, Credit etc',
-    techs: 'React.js JavaScript Firebase Material UI and More...',
+    name: 'LendStack (Web & Mobile)',
+    desc: 'Enterprise fintech platform for loan management, borrower onboarding, EMI collections, cash ledger, expense tracking, reporting, subscription management, and payment processing. Developed scalable web and mobile solutions with secure APIs and reusable architecture.',
+    techs:
+      'React.js Next.js React-Native Node.js Express.js MySQL Sequelize-ORM Firebase MUI Razorpay',
     link: 'https://lendstack.app',
   },
   {
-    name: 'LendStack (Loan Management App)',
-    desc: 'This mobile application provides many services like Loan, EMI, Credit etc',
-    techs: 'React-Native Redux.js Axios Stylesheet(CSS) Native-Base More...',
-    link: 'https://play.google.com/store/apps/details?id=com.lendstack',
-  },
-  {
-    name: 'QYUBIC (Online Coupon and Discount)',
-    desc: 'This web application provides coupons and discount on top brands & categories. ',
-    techs: 'Next.js Redux.js Bootstrap CSS3 Axios More...',
+    name: 'QYUBIC (Web & Mobile)',
+    desc: 'Cross-platform coupon and rewards platform enabling users to discover exclusive offers, memberships, and discounts from leading brands through responsive web and mobile applications.',
+    techs:
+      'React.js Next.js React-Native Redux Firebase Axios Bootstrap',
     link: 'https://www.qyubic.com/uae-en',
   },
   {
-    name: 'QYUBIC Mobile App (Online Coupon and Discount)',
-    desc: 'This web application provides coupons and discount on top brands & categories. ',
+    name: 'Guvrix',
+    desc: 'Enterprise governance platform for data security, compliance, risk assessment, and regulatory management. Led approximately 80% of frontend development, building interactive dashboards and reusable UI components.',
     techs:
-      'React-Native Firebase Redux.js Axios Stylesheet(CSS) Native-Base More...',
-    link: 'https://play.google.com/store/apps/details?id=com.qyubic',
-  },
-  {
-    name: 'Guvrix (Data Management)',
-    desc: 'This web application provides many data services like DATA SECURITY, DATA USAGE, DATA REGULATIONS etc',
-    techs: 'React.js Bootstrap CSS3 Axios More...',
+      'React.js JavaScript Bootstrap Axios',
     link: 'https://guvrix.com/',
   },
   {
-    name: 'Doctorji (Doctor’s Appointment System)',
-    desc: 'This web application provides services like appointment, best doctor and hospital treatment according to your preferrence.',
-    techs: 'React.js Mantine-UI Axios More...',
-    link: 'https://www.doctorji.co.in/',
+    name: 'Doctorji',
+    desc: 'Healthcare platform for doctor discovery, online appointment booking, and hospital management. Built responsive interfaces with seamless API integration to deliver an intuitive patient experience.',
+    techs:
+      'JavaScript React.js Mantine-UI Axios REST-APIs',
+    link: '/',
   },
 ];
 
